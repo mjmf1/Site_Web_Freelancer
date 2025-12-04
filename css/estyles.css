@@ -11,19 +11,6 @@
     --fuente-principal: 'Helvetica Neue', Helvetica, Arial, sans-serif, 3.8rem;
 }
 
-.krub-regular {
-  font-family: "Krub", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.krub-bold {
-  font-family: "Krub", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-
 html{
     font-size: 62.5%;   
 }
@@ -38,4 +25,23 @@ body{
 }
  .titulo span{
     font-size: 2rem;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--segundario);
+}
+.navegacion-principal{
+    display: flex; /* <-- Lo hace flexible (horizontal) */
+    justify-content: space-between;
+}
+.navegacion-principal a {
+    /* Agrega estilos a tus enlaces de navegación */
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem; /* Opcional: para que el área de clic sea más grande */
 }
